@@ -16,7 +16,7 @@ I am interested in exploring the questions, whether we can find out where we as 
 
 ---
 
-## 2. Introduction: Definitions of Reproducibility
+## Introduction: Definitions of Reproducibility
 
 ### Some attempts at defining reproducibility and other R-words
 
@@ -65,7 +65,7 @@ In practice, reproducibility doesn’t have to mean extra overhead or busywork. 
 
 ---
 
-## 3. The Holy Trinity of (Computational) Reproducibility
+## The Holy Trinity of (Computational) Reproducibility
 
 It is always nice to have priorities and even nicer, if there are three of them. So let's try to extract the three most important and general aspects to become reproducible (enough).
 
@@ -99,7 +99,7 @@ Since some of you might point out that there is much more sublime (and fancy) st
 
 ---
 
-## 4. The Five Levels of Reproducibility
+## The Five Levels of Reproducibility
 
 I have tried to identify along the lines of the trinities five levels of reproducibility to allow a research to position themselves. Real people/groups often straddle multiple levels, but this model can help you see where you stand and where to aim. 
 
@@ -107,7 +107,7 @@ I have tried to identify along the lines of the trinities five levels of reprodu
 
 ---
 
-## 5. Concluding Remarks
+## Concluding Remarks
 
 Reproducibility may start as a small change to daily habits—switching to Git, writing short scripts, or containerizing an environment. Over time, this foundation becomes a powerful framework that:
 
@@ -119,7 +119,7 @@ No matter where you currently stand, taking steps toward a higher level of repro
 
 ---
 
-## 6. References
+## References
 
 [^1] Medicine, N. A. of S., Engineering, and. (2020). Reproducibility and Replicability in Science: Report Highlights. Harvard Data Science Review, 2(4). https://hdsr.mitpress.mit.edu/pub/nas-report-highlights
 
