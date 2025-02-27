@@ -121,13 +121,13 @@ No matter where you currently stand, taking steps toward a higher level of repro
 
 ## References
 
-[^1] Medicine, N. A. of S., Engineering, and. (2020). Reproducibility and Replicability in Science: Report Highlights. Harvard Data Science Review, 2(4). https://hdsr.mitpress.mit.edu/pub/nas-report-highlights
+[^1]: Medicine, N. A. of S., Engineering, and. (2020). Reproducibility and Replicability in Science: Report Highlights. Harvard Data Science Review, 2(4). https://hdsr.mitpress.mit.edu/pub/nas-report-highlights
 
-[^2] Steven N. Goodman et al., What does research reproducibility mean? Sci. Transl. Med. 8, 341ps12-341ps12 (2016). DOI: https://doi.org/10.1126/scitranslmed.aaf5027
+[^2]: Steven N. Goodman et al., What does research reproducibility mean? Sci. Transl. Med. 8, 341ps12-341ps12 (2016). DOI: https://doi.org/10.1126/scitranslmed.aaf5027
 
-[^3] Victoria Stodden, What scientific idea is ready for retirement?, Edge.org, (2016), https://www.edge.org/response-detail/25340
+[^3]: Victoria Stodden, What scientific idea is ready for retirement?, Edge.org, (2016), https://www.edge.org/response-detail/25340
 
-[^4] Dorothy Bishop, Rein in the four horsemen of irreproducibility. Nature 568, 435 (2019). DOI: https://doi.org/10.1038/d41586-019-01307-2
+[^4]: Dorothy Bishop, Rein in the four horsemen of irreproducibility. Nature 568, 435 (2019). DOI: https://doi.org/10.1038/d41586-019-01307-2
 
-[^5] Baykal, P.I., Łabaj, P.P., Markowetz, F. et al. Genomic reproducibility in the bioinformatics era. Genome Biol 25, 213 (2024). https://doi.org/10.1186/s13059-024-03343-2
+[^5]: Baykal, P.I., Łabaj, P.P., Markowetz, F. et al. Genomic reproducibility in the bioinformatics era. Genome Biol 25, 213 (2024). https://doi.org/10.1186/s13059-024-03343-2
 
