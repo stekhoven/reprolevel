@@ -109,6 +109,8 @@ I have tried to identify along the lines of the trinities five levels of reprodu
 
 ![reprolevels](img/2025-02-21_reprolevels_v1.png)
 
+_Icons from https://www.flaticon.com/._
+
 ---
 
 ## Concluding Remarks
