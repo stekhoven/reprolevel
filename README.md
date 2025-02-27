@@ -1,6 +1,9 @@
-# Reproducibility in practice
+# Reproducibility Levels in Practice
 
-## a humble attempt at levelling
+_a humble attempt at levelling_
+
+![GitHub License](https://img.shields.io/github/license/stekhoven/reprolevel)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
 
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch
 
@@ -16,7 +19,7 @@ I am interested in exploring the questions, whether we can find out where we as 
 
 ---
 
-## Introduction: Definitions of Reproducibility
+## Definitions of Reproducibility
 
 ### Some attempts at defining reproducibility and other R-words
 
