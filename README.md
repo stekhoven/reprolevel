@@ -3,6 +3,7 @@
 _a humble attempt at levelling_
 
 ![GitHub License](https://img.shields.io/github/license/stekhoven/reprolevel)
+![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
 
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch
