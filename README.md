@@ -12,7 +12,7 @@ _a humble attempt at levelling_
 
 ---
 
-Reproducibility is sometimes seen as an added chore—a hurdle to jump after our main analysis is done. In reality, reproducible research can save us from costly mistakes, clarify our thought processes, and foster more collaborative science. By adopting a handful of best practices, we not only help others replicate our work but also streamline our own research and reduce frustrations.
+Reproducibility is sometimes seen as an added chore - a hurdle to jump after our main analysis is done - in the end. In reality, reproducible research can save us from costly mistakes, clarify our thought processes, and foster more collaborative science. By adopting a handful of best practices, we not only help others replicate our work but also streamline our own research and reduce frustrations.
 
 I am interested in exploring the questions, whether we can find out where we as individual researchers stand with our own research, whether there is *enough* reproducibility, and whether it is actually worth the effort?
 
