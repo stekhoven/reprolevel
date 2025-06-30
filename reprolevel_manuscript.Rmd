@@ -88,13 +88,76 @@ Since some of you might point out that there is much more sublime (and fancy) st
 
 ---
 
-## The Five Levels of Reproducibility
+## The Five (Individual) Levels of (Computational) Reproducibility
 
 I have tried to identify along the lines of the trinities five levels of reproducibility to allow a research to position themselves. Real people/groups often straddle multiple levels, but this model can help you see where you stand and where to aim. 
 
-![reprolevels](img/2025-02-21_reprolevels_v1.png)
+<!-- ![reprolevels](img/2025-02-21_reprolevels_v1.png) -->
 
-_Icons from https://www.flaticon.com/._
+```{r, warning=FALSE, message=FALSE, echo=FALSE}
+# load requisite packages
+library(gt)
+library(tibble)
+library(dplyr)
+library(kableExtra)
+
+# Define each level [feel free to edit the below content]
+level1 <- data.frame(
+  name =            c("Level 1: Ephemeral Work"),
+  scripting =       c("Manual and interactive analysis."),
+  documentation =   c("Reliance on researcher's memory."),
+  reproducibility = c("Probably not reproducible."),
+  tools =           c("<ul><li>Spreadsheets with colours</li><li>Manual notes</li><li>Ad-hoc scripts</li><li>File sharing via email or personal clouds</li></ul>"),
+  pros_cons =       c("Extremely difficult to revisit or share analyses.</li><li>High risk of irrecoverable errors or lost steps.")
+)
+
+level2 <- data.frame(
+  name =            c("Level 2: Carpe Diem"),
+  scripting =       c("Some scripts."),
+  documentation =   c("Comments in README, inline or some notebook."),
+  reproducibility = c("Reproducible if not too long ago."),
+  tools =           c("<ul><li>Basic git usage.</li><li>Simple README files</li><li>Installing software as needed</li><li>Basic ELN usage</li><li>Cloud storage without clear structure</li></ul>"),
+  pros_cons =       c("Difficult to reproduce results if environment or code changes./nDocumentation might be inconsistent or quickly outdated.")
+)
+
+level3 <- data.frame(
+  name =            c("Level 3: Sweet Spot"),
+  scripting =       c("Version controlled scripts"),
+  documentation =   c("Workflow management or well-sctructured scripts"),
+  reproducibility = c("Reproducible on the same infrastructure by the same person"),
+  tools =           c("<ul><li>github/gitlab</li><li>conda/virtualenv</li><li>Lightweight workflow scripts (bash scripts or makefiles</li><li>Basic containerization,</li><li>ELN integrated with version control</li></ul>"),
+  pros_cons =       c("Colleagues (with some effort) can reproduce analysis if they follow step-by-step instructions.</li><li>The workflow is robust to small changes, and results are traceable, relies on good practice by researcher.")
+)
+
+level4 <- data.frame(
+  name =            c("Level 4: Assembly Line"),
+  scripting =       c("Scripts combined in single workflow"),
+  documentation =   c("Minimal steps to spin up environment using containers"),
+  reproducibility = c("Reproducible on different machines and with different collaborators"),
+  tools =           c("<ul><li>Full containerization</li><li>Advanced workflow management (e.g. snakemake, nextflow, CWL)</li><li>Data versioning (e.g. DVC, git-annex) or persistent repositories for large datasets</li><li>Continuous integration (e.g. github actions, gitlab CI, jenkins)</li><li>Metadata-rich ELN</li></ul>"),
+  pros_cons =       c("<ul><li>Colleagues (and sometimes even external collaborators) can reproduce results with minimal setup.</li><li>Checks reduce human error, though complex configurations can still hide subtle bugs.</li></ul>")
+)
+
+level5 <- data.frame(
+  name =            c("Level 5: Nirvana"),
+  scripting =       c("Full reproduction with single command"),
+  documentation =   c("Whole life-cycle is documented and continuously tested"),
+  reproducibility = c("Reproducible for anyone after publication"),
+  tools =           c("<ul><li>Coordination (web) application</li><li>Comprehensive CI/CD</li><li>Integrated repositories with DOIs (e.g. Zenodod, Dryad)</li><li>Automated documentation (e.g. sphinx, MkDocs)</li><li>Seamless lab-to-publication pipeline</li></ul>"),
+  pros_cons =       c("<ul><li>Multiple collaborators or future selfs can reproduce, reuse and extend the work almost effortlessly.</li><li>CI and end-to-end automation catch errors early and often.</li></ul>")
+)
+
+# print to markdown
+reprolevels <- bind_rows(level1, level2, level3, level4, level5)
+kable(reprolevels, "html", escape = FALSE, col.names = c("Level", "Scripting", "Documentation", "Reproducibility", "Tools", "Pros & Cons")) %>%
+  kable_styling("striped", full_width = F) %>%
+  column_spec(1, bold = TRUE) %>%
+  column_spec(4, width = "20em") %>%
+  column_spec(5, width = "20em") %>%
+  column_spec(6, width = "20em")
+#
+```
+
 
 ---
 
