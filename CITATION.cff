@@ -3,12 +3,10 @@ message: "If you use this framework, please cite the repository version you used
 title: "Reproducibility Levels in Practice"
 type: software
 version: 0.1.0
-doi: 10.0000/placeholder-doi
 abstract: >-
   A living framework for reflecting on, discussing, and improving
   computational reproducibility in research practice.
 repository-code: "https://github.com/stekhoven/reprolevel"
-license: "CC-BY-4.0 AND MIT"
 authors:
   - family-names: "Stekhoven"
     given-names: "Daniel J."
@@ -28,5 +26,4 @@ preferred-citation:
     - family-names: "Stekhoven"
       given-names: "Daniel J."
   version: 0.1.0
-  doi: 10.0000/placeholder-doi
   url: "https://github.com/stekhoven/reprolevel"

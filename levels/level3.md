@@ -22,7 +22,7 @@ If Level 1 was cooking without a recipe, and Level 2 was hurriedly scribbling 
 
 ## Typical tools and artefacts
 
-*   **Git repository with a clear structure:** Expect to see a repository containing folders like `data/`, `src/` or `scripts/`, `results/` or `figures/`, etc. The repository likely has a `README.md` as well as other documentation. It may also include a CITATION file or license now that you’re thinking of sharing it.
+*   **Git repository with a clear structure:** Expect to see a repository containing folders like `data/`, `src/` or `scripts/`, `results/` or `figures/`, etc. The repository likely has a `README.md` as well as other documentation. It may also include a CITATION file or licence now that you’re thinking of sharing it.
 *   **Dependency lists or environment files:** Files such as `requirements.txt`, `setup.py` (for Python packages), `environment.yml` for Conda, or `renv.lock` for R projects show up at this level. These files help specify what packages and versions are needed.
 *   **Automation helpers:** You might have a `Makefile`, a `Snakefile`, or simply a shell script like `run_all.sh` or an R script that orchestrates the workflow. These encapsulate the series of steps to execute the entire analysis. If someone runs the right command (e.g. `make all` or `bash run_all.sh`), they’ll get the outputs without manual intervention.
 *   **Data documentation:** Possibly a data dictionary, or at least a description of each data file and where it came from, perhaps in the README or a separate `data_description.md`. If using databases or external data sources, you have those access details recorded.
