@@ -5,7 +5,8 @@ _A living framework for reflecting on, discussing, and improving computational r
 ![GitHub License](https://img.shields.io/github/license/stekhoven/reprolevel)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8334928.svg)](https://doi.org/10.5281/zenodo.8334928)
+
+Zenodo DOI: <https://doi.org/10.5281/zenodo.8334928>
 
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch
 
