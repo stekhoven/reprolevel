@@ -2,7 +2,7 @@
 
 _A living framework for reflecting on, discussing, and improving computational reproducibility._
 
-![GitHub License](https://img.shields.io/github/license/stekhoven/reprolevel)
+![Licence: CC BY 4.0 + MIT](https://img.shields.io/badge/licence-CC--BY%204.0%20%2B%20MIT-blue)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
 
