@@ -5,8 +5,7 @@ _A living framework for reflecting on, discussing, and improving computational r
 ![GitHub License](https://img.shields.io/github/license/stekhoven/reprolevel)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
-
-<!-- Add a Zenodo DOI badge here after the first archived release. -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8334928.svg)](https://doi.org/10.5281/zenodo.8334928)
 
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch
 
@@ -146,11 +145,13 @@ Releases should:
 
 Please cite the repository version you used.
 
-For now, cite the GitHub repository and the framework version. Once the Zenodo record for `v1.0.0` is available, this section should be updated to include:
+Preferred citation for `v1.0.0`:
 
-- the Zenodo DOI badge;
-- the preferred software/framework citation;
-- the linked F1000Research article citation.
+- Zenodo DOI: `10.5281/zenodo.8334928`
+- DOI link: https://doi.org/10.5281/zenodo.8334928
+- Repository version: `v1.0.0`
+
+Once the F1000Research article is available, this section should also include the linked article citation.
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
 

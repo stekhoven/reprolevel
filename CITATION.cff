@@ -3,6 +3,7 @@ message: "If you use this framework, please cite the repository version you used
 title: "Reproducibility Levels in Practice"
 type: software
 version: 1.0.0
+doi: 10.5281/zenodo.8334928
 abstract: >-
   A living framework for reflecting on, discussing, and improving
   computational reproducibility in research practice.
@@ -26,4 +27,5 @@ preferred-citation:
     - family-names: "Stekhoven"
       given-names: "Daniel J."
   version: 1.0.0
+  doi: 10.5281/zenodo.8334928
   url: "https://github.com/stekhoven/reprolevel"
