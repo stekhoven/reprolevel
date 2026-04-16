@@ -6,9 +6,13 @@ _A living framework for reflecting on, discussing, and improving computational r
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
 
+<!-- Add a Zenodo DOI badge here after the first archived release. -->
+
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch
 
 **Status:** Active draft and open for community input
+
+**Current framework version:** `0.1.0`
 
 ## What this repository is
 
@@ -61,6 +65,22 @@ The detailed descriptions live in the [`levels/`](levels/) directory:
 
 These levels are intended as practical archetypes, not rigid boxes. Real projects and real people often span multiple levels at once. Someone might be at Level 3 for code organisation, Level 2 for documentation, and Level 1 for environment capture. That is normal.
 
+## Repository structure
+
+- [`README.md`](README.md): project overview, navigation, citation, and governance summary
+- [`levels/`](levels/): the five detailed level descriptions
+- [`reprolevel_manuscript.Rmd`](reprolevel_manuscript.Rmd): current manuscript draft
+- [`reprolevel_manuscript.html`](reprolevel_manuscript.html): rendered manuscript output
+- [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution process and style guidance
+- [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md): community standards
+- [`GOVERNANCE.md`](GOVERNANCE.md): maintainers, decision-making, and versioning policy
+- [`CHANGELOG.md`](CHANGELOG.md): notable framework changes across versions
+- [`CITATION.cff`](CITATION.cff): machine-readable citation metadata
+- [`examples/`](examples/): optional community examples and case studies
+- [`.github/`](.github/): issue templates, PR template, and CI workflows
+- [`img/`](img/): figures and visual assets
+- [`slides/`](slides/): talks and presentation material
+
 ## How to use this repository
 
 You can use this repository in several ways:
@@ -70,25 +90,7 @@ You can use this repository in several ways:
 - **For project reflection:** discuss where a specific project sits today and what the next useful step would be.
 - **For framework development:** suggest wording changes, missing dimensions, examples, counterexamples, or new use cases.
 
-## Repository structure
-
-- [`README.md`](README.md): project overview and contribution entry point
-- [`reprolevel_manuscript.Rmd`](reprolevel_manuscript.Rmd): current manuscript draft
-- [`reprolevel_manuscript.html`](reprolevel_manuscript.html): rendered manuscript output
-- [`levels/`](levels/): detailed descriptions of the five levels
-- [`img/`](img/): figures and visual assets
-- [`slides/`](slides/): talks and presentation material
-
-## Relationship between the repository and the paper
-
-The repository and the future paper serve related but different purposes.
-
-- The **paper** is intended to present the motivation, the framing, and the opinionated argument for why a levels-based view is useful.
-- The **repository** is intended to remain the open, revisable, community-facing version of the framework.
-
-That distinction matters. A journal article is versioned and citable. A GitHub repository can continue to absorb examples, criticism, refinements, and extensions. Ideally, future paper versions and repository releases should inform each other without freezing the framework prematurely.
-
-## Contributing
+## Contribution and governance
 
 Contributions are very welcome.
 
@@ -102,55 +104,124 @@ Useful contributions include:
 - improving the manuscript framing;
 - proposing ways to make self-assessment more reliable and more helpful.
 
-If you would like to contribute, a good starting point is to open an issue or pull request with one of the following:
+The contribution workflow is:
 
-- a suggested edit to a level description;
-- a concrete example of a project that fits a given level;
-- a concern about terminology or correctness;
-- an idea for making the framework easier to use in teaching, labs, or publications.
+1. Open an issue to discuss substantial proposed changes, especially for changes to level definitions or framework concepts.
+2. Refine the proposal with maintainers and contributors.
+3. Open a pull request linked to the issue.
+4. Obtain maintainer review before merging.
 
-When suggesting changes, it is especially helpful to explain:
+Major changes to level definitions, governance, or framework structure require explicit maintainer approval.
 
-- what part you think should change;
-- why the current wording is insufficient;
-- whether your suggestion is about clarity, correctness, scope, tone, or usability;
-- whether the change should apply across all disciplines or mainly in a specific context.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the detailed process and [`GOVERNANCE.md`](GOVERNANCE.md) for how decisions are made.
 
-## What kinds of improvements are especially welcome
+## Style guide
 
-The framework will likely become more useful if it grows in the following directions:
+To keep the framework readable and coherent, contributors should aim for:
 
-- **Clearer self-assessment criteria:** short checklists or rubrics that complement the narrative descriptions.
-- **Examples and personas:** worked examples from different kinds of research practice.
-- **Multidimensional assessment:** code, data, environment, workflow, documentation, verification, and sharing could be assessed separately.
-- **Upgrade paths:** practical advice for moving from one level to the next without unnecessary overhead.
-- **Better publication linkage:** tighter coordination between GitHub releases and manuscript versions.
+- British English spelling and punctuation;
+- a constructive, non-shaming tone;
+- plain, direct language;
+- descriptions of capabilities and outcomes rather than tool brand loyalty;
+- examples grounded in real research practice.
 
-## Principles behind the framework
+## Versioning and releases
 
-This project currently leans on a few working principles:
+This project adopts **semantic versioning** for the framework.
 
-- **Constructive over punitive:** the levels should help people improve, not shame them.
-- **Practice over posturing:** the framework should describe what researchers actually do, not just ideal tool stacks.
-- **Capabilities over brand names:** tools matter, but outcomes matter more than whether one uses a particular platform.
-- **Fit-for-purpose reproducibility:** not every project needs the same level of automation or infrastructure.
-- **Community revision:** the framework should get better through critique, examples, and iteration.
+- **Major versions** reflect substantial changes to the framework structure or interpretation.
+- **Minor versions** reflect meaningful extensions or revisions to level definitions, governance, or supporting materials.
+- **Patch versions** reflect smaller corrections such as wording, formatting, citation metadata, or non-substantive fixes.
 
-## Current manuscript
+The current working version is `0.1.0`. The first public, publication-aligned release is intended to be `1.0.0`.
 
-The manuscript draft is in [`reprolevel_manuscript.Rmd`](reprolevel_manuscript.Rmd). It currently combines:
+Releases should:
 
-- background on definitions of reproducibility;
-- motivation for a practical framing;
-- a five-level model of computational reproducibility.
+- be tagged in GitHub using semantic version tags such as `v1.0.0`;
+- be archived in Zenodo or a similar service to mint a DOI;
+- update [`CITATION.cff`](CITATION.cff), [`CHANGELOG.md`](CHANGELOG.md), and the citation section of this README;
+- clearly state which framework version corresponds to any formal publication.
 
-This is still a draft and should be read as such. The repository is the best place to suggest conceptual improvements before the framework is formalised in a journal article.
+## Citation
 
-## Citation and reuse
+Please cite the repository version you used.
 
-For now, please cite the repository URL and author if you use or discuss this framework. Once a paper and versioned releases are in place, more formal citation guidance should be added here.
+For now, cite the GitHub repository and the framework version. Once the first archived release DOI is available, this section should be updated to include:
 
-The project is released under the terms of the [`LICENSE`](LICENSE).
+- the Zenodo DOI badge;
+- the preferred software/framework citation;
+- the linked F1000Research article citation.
+
+Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
+
+## Formal publications
+
+Formal publication information should be listed here once available.
+
+- F1000Research article: placeholder until publication
+- repository version aligned with the paper: planned `v1.0.0`
+
+## Publication sync
+
+The repository and the future paper serve related but different purposes.
+
+- The **paper** is intended to present the motivation, framing, and opinionated argument for why a levels-based view is useful.
+- The **repository** is intended to remain the open, revisable, community-facing version of the framework.
+
+Once the F1000Research article is published, this README should document:
+
+- the exact repository version described by the paper;
+- the formal citation for the article;
+- the fact that later repository versions may extend beyond the published paper;
+- where readers can find the latest living version of the framework.
+
+Planned publication linkage:
+
+- `v1.0.0`: placeholder release intended to align with the first published F1000Research article
+- later versions: living updates based on community input and framework evolution
+
+## Automation and quality checks
+
+GitHub Actions workflows are provided for:
+
+- Markdown linting;
+- spell-checking;
+- link checking;
+- citation metadata validation.
+
+These workflows are intended to run on pull requests and on `main`. In GitHub repository settings, configure them as required status checks before merge.
+
+## Branch protection and repository settings
+
+Some repository controls must be enabled in the GitHub web interface rather than from within the repository itself.
+
+Recommended settings for the `main` branch:
+
+- require pull requests before merging;
+- require at least one approving review;
+- require status checks to pass before merging;
+- restrict direct pushes to `main`;
+- optionally require branches to be up to date before merging.
+
+These settings are described here, but must be configured manually by a repository administrator.
+
+## Community examples
+
+Community examples and case studies can be shared through:
+
+- the optional [`examples/`](examples/) directory;
+- GitHub Discussions, if enabled for the repository.
+
+Examples are especially valuable if they show how the framework applies in different disciplines, team structures, or computational settings.
+
+## Licence
+
+This repository uses a mixed licensing model:
+
+- written content and framework prose are released under **CC BY 4.0**;
+- code, templates, and automation files are released under the **MIT License**.
+
+See [`LICENSE`](LICENSE) for details.
 
 ## Contact
 

@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "language": "en-GB",
+  "useGitignore": true,
+  "ignorePaths": [
+    "reprolevel_manuscript.html"
+  ],
+  "words": [
+    "artefact",
+    "artefacts",
+    "behaviour",
+    "behaviours",
+    "colour",
+    "colours",
+    "f1000research",
+    "gitlab",
+    "github",
+    "lychee",
+    "mkdocs",
+    "nextflow",
+    "nirvana",
+    "rmarkdown",
+    "snakemake",
+    "stekhoven",
+    "zenodo"
+  ],
+  "overrides": [
+    {
+      "filename": "**/*.md",
+      "language": "en-GB"
+    }
+  ]
+}

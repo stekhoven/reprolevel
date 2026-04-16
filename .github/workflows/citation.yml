@@ -1,0 +1,32 @@
+name: Citation Validation
+
+on:
+  pull_request:
+    paths:
+      - CITATION.cff
+      - .github/workflows/citation.yml
+  push:
+    branches:
+      - main
+    paths:
+      - CITATION.cff
+      - .github/workflows/citation.yml
+
+jobs:
+  validate-citation:
+    name: Validate CITATION.cff
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install cffconvert
+        run: pip install cffconvert
+
+      - name: Validate citation file
+        run: cffconvert --validate
