@@ -6,28 +6,19 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-04-16
+
 ### Added
 
-- contributor documentation in [`CONTRIBUTING.md`](CONTRIBUTING.md)
-- community standards in [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
-- governance and versioning policy in [`GOVERNANCE.md`](GOVERNANCE.md)
+- first public release of the ReproLevel framework
+- five narrative level descriptions in [`levels/`](levels/)
+- repository guidance for contribution, governance, citation, and versioning
+- issue and pull request templates
+- documentation-quality GitHub Actions workflows
 - machine-readable citation metadata in [`CITATION.cff`](CITATION.cff)
-- issue and pull request templates under [`.github/`](.github/)
-- GitHub Actions workflows for documentation quality checks
-- optional [`examples/`](examples/) directory for community case studies
-
-### Changed
-
-- README expanded into a fuller project overview with citation, governance, and release guidance
-- repository licence updated to a mixed content/code model
-
-## [0.1.0] - 2026-04-16
-
-### Added
-
-- initial five-level framework content in [`levels/`](levels/)
-- repository framing for a living reproducibility framework
 
 ### Notes
 
-- pre-release working version before the first publication-aligned `1.0.0` release
+- intended as the first stable, citable release of the framework
+- intended to align with the first formal publication of the framework
+- Zenodo DOI and publication details should be added after archival and publication

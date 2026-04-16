@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this framework, please cite the repository version you used."
 title: "Reproducibility Levels in Practice"
 type: software
-version: 0.1.0
+version: 1.0.0
 abstract: >-
   A living framework for reflecting on, discussing, and improving
   computational reproducibility in research practice.
@@ -25,5 +25,5 @@ preferred-citation:
   authors:
     - family-names: "Stekhoven"
       given-names: "Daniel J."
-  version: 0.1.0
+  version: 1.0.0
   url: "https://github.com/stekhoven/reprolevel"

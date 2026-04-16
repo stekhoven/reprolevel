@@ -12,7 +12,7 @@ _A living framework for reflecting on, discussing, and improving computational r
 
 **Status:** Active draft and open for community input
 
-**Current framework version:** `0.1.0`
+**Current framework version:** `1.0.0`
 
 ## What this repository is
 
@@ -133,7 +133,7 @@ This project adopts **semantic versioning** for the framework.
 - **Minor versions** reflect meaningful extensions or revisions to level definitions, governance, or supporting materials.
 - **Patch versions** reflect smaller corrections such as wording, formatting, citation metadata, or non-substantive fixes.
 
-The current working version is `0.1.0`. The first public, publication-aligned release is intended to be `1.0.0`.
+The current public release is `1.0.0`.
 
 Releases should:
 
@@ -146,7 +146,7 @@ Releases should:
 
 Please cite the repository version you used.
 
-For now, cite the GitHub repository and the framework version. Once the first archived release DOI is available, this section should be updated to include:
+For now, cite the GitHub repository and the framework version. Once the Zenodo record for `v1.0.0` is available, this section should be updated to include:
 
 - the Zenodo DOI badge;
 - the preferred software/framework citation;
@@ -159,7 +159,7 @@ Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff
 Formal publication information should be listed here once available.
 
 - F1000Research article: placeholder until publication
-- repository version aligned with the paper: planned `v1.0.0`
+- repository version aligned with the paper: `v1.0.0`
 
 ## Publication sync
 
@@ -177,7 +177,7 @@ Once the F1000Research article is published, this README should document:
 
 Planned publication linkage:
 
-- `v1.0.0`: placeholder release intended to align with the first published F1000Research article
+- `v1.0.0`: first public release intended to align with the first published F1000Research article
 - later versions: living updates based on community input and framework evolution
 
 ## Automation and quality checks
