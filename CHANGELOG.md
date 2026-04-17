@@ -21,5 +21,5 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 
 - intended as the first stable, citable release of the framework
 - intended to align with the first formal publication of the framework
-- Zenodo DOI for this release: `10.5281/zenodo.8334928`
+- Zenodo DOI for this release: `10.5281/zenodo.19616402`
 - publication details should be added after formal publication

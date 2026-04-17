@@ -7,9 +7,9 @@ _A living framework for reflecting on, discussing, and improving computational r
 [![Citation Validation](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
-[![DOI](https://img.shields.io/doi/10.5281/zenodo.8334928)](https://doi.org/10.5281/zenodo.8334928)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19616402.svg)](https://doi.org/10.5281/zenodo.19616402)
 
-Zenodo DOI: <https://doi.org/10.5281/zenodo.8334928>
+Zenodo DOI: <https://doi.org/10.5281/zenodo.19616402>
 
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch
 
@@ -151,8 +151,8 @@ Please cite the repository version you used.
 
 Preferred citation for `v1.0.0`:
 
-- Zenodo DOI: `10.5281/zenodo.8334928`
-- DOI link: https://doi.org/10.5281/zenodo.8334928
+- Zenodo DOI: `10.5281/zenodo.19616402`
+- DOI link: https://doi.org/10.5281/zenodo.19616402
 - Repository version: `v1.0.0`
 
 Once the F1000Research article is available, this section should also include the linked article citation.
