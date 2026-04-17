@@ -3,8 +3,11 @@
 _A living framework for reflecting on, discussing, and improving computational reproducibility._
 
 ![Licence: CC BY 4.0 + MIT](https://img.shields.io/badge/licence-CC--BY%204.0%20%2B%20MIT-blue)
+[![Docs Quality](https://github.com/stekhoven/reprolevel/actions/workflows/docs-quality.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/docs-quality.yml)
+[![Citation Validation](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
+[![DOI](https://img.shields.io/doi/10.5281/zenodo.8334928)](https://doi.org/10.5281/zenodo.8334928)
 
 Zenodo DOI: <https://doi.org/10.5281/zenodo.8334928>
 
