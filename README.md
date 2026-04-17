@@ -6,10 +6,7 @@ _A living framework for reflecting on, discussing, and improving computational r
 [![Docs Quality](https://github.com/stekhoven/reprolevel/actions/workflows/docs-quality.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/docs-quality.yml)
 [![Citation Validation](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/stekhoven/reprolevel)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19616402.svg)](https://doi.org/10.5281/zenodo.19616402)
-
-Zenodo DOI: <https://doi.org/10.5281/zenodo.19616402>
 
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch
 
