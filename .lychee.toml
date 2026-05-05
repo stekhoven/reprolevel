@@ -1,7 +1,9 @@
 accept = [200, 206, 429]
 exclude = [
   "^http://localhost",
-  "^https://localhost"
+  "^https://localhost",
+  # AAAS/Science blocks automated checks for this otherwise valid DOI.
+  "^https://doi\\.org/10\\.1126/scitranslmed\\.aaf5027$"
 ]
 max_concurrency = 8
 retry_wait_time = 2
