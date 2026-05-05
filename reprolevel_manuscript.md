@@ -4,9 +4,11 @@
 
 **Author:** Daniel J. Stekhoven
 
-**Affiliation:** ETH Zurich
+**Affiliation:** NEXUS Personalized Health, ETH Zurich
 
 **Correspondence:** stekhoven@nexus.ethz.ch
+
+**ORCID:** [0000-0003-3163-3161](https://orcid.org/0000-0003-3163-3161)
 
 ## Abstract
 
@@ -305,6 +307,44 @@ new student. A data steward may require archived inputs. A collaborator may
 need a container because their institution uses a different operating system.
 Instead of debating reproducibility in general terms, the team can discuss
 which level is needed for which audience and why.
+
+## A living and interactive framework
+
+The framework is also intended to remain a collaborative piece of work rather
+than a closed publication artefact. The accompanying repository is designed as
+the living home of the framework, where researchers, research software
+engineers, data stewards, educators, and other interested contributors can add
+ideas, examples, critiques, opinions, and proposed wording changes. Future
+versions of both the manuscript and the level descriptions should therefore be
+able to incorporate community contributions while preserving a clear versioned
+record of what changed and why.
+
+This collaborative model is important because reproducibility practices are
+not uniform across disciplines, institutions, or project types. A framework
+written from one perspective will inevitably miss cases that are obvious to
+other communities. Contributions can help identify where a level description is
+too tool-specific, too strict, too permissive, or insufficiently sensitive to
+constraints such as data privacy, computational cost, proprietary instruments,
+or field-specific reporting norms.
+
+The repository is also intended to become more interactive. Before publication,
+the plan is to add a GitHub Pages site that allows users to answer a short set
+of questions and receive a reflective assessment of their current
+reproducibility level. This should not function as a formal certification or a
+single score. Instead, the questionnaire should help users see where their work
+sits across several domains, such as version control, workflow structure,
+environment capture, data management, documentation, validation, sharing, and
+long-term preservation.
+
+Such a multidimensional assessment is necessary because a project can occupy
+different levels in different areas. A team may have excellent version control
+but weak environment capture. Another project may have a polished public
+repository but incomplete provenance for the underlying data. A third may be
+highly reproducible within a secure institutional setting but intentionally
+limited in public data sharing. Presenting these differences as a profile
+rather than a verdict makes the framework more useful: it shows not only where
+a project broadly sits, but which practical improvement is likely to matter
+next.
 
 ## Choosing the next improvement
 
