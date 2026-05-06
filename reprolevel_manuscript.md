@@ -2,13 +2,15 @@
 
 **Article type:** Opinion Article
 
-**Author:** Daniel J. Stekhoven
+**Authors:** Stefan Gerber; Daniel J. Stekhoven
 
 **Affiliation:** NEXUS Personalized Health, ETH Zurich
 
 **Correspondence:** stekhoven@nexus.ethz.ch
 
-**ORCID:** [0000-0003-3163-3161](https://orcid.org/0000-0003-3163-3161)
+**ORCID:** Daniel J. Stekhoven,
+[0000-0003-3163-3161](https://orcid.org/0000-0003-3163-3161); Stefan Gerber,
+ORCID to be added
 
 ## Abstract
 
@@ -112,6 +114,14 @@ well for close collaborators, while remaining difficult for an external reader
 to run. The value of the levels is that they make these mixed states discussable
 without flattening them into a pass/fail judgement.
 
+This approach builds on earlier calls to treat reproducibility as a practical
+minimum standard for computational claims when full independent replication is
+not immediately available [7]. It also complements more direct rules and
+checklists for reproducible computational work, such as keeping track of how
+each result was produced and connecting claims to the outputs that support
+them [8]. The added contribution here is not another list of practices, but a
+simple way to describe how far those practices have become part of a project.
+
 ## The main dimensions of computational reproducibility
 
 The framework draws attention to several recurring dimensions of computational
@@ -143,6 +153,10 @@ The levels should therefore be read as archetypes that combine these
 dimensions, not as prescriptions for specific tools. Git, Snakemake, Nextflow,
 Docker, Singularity, Binder, Zenodo, and similar tools appear because they are
 common routes to certain capabilities. They are examples, not requirements.
+This is compatible with the FAIR principles for data stewardship, which
+emphasise findability, accessibility, interoperability, and reusability [9],
+but the levels ask a more operational question: how does the whole analysis
+actually travel from one context to another?
 
 ## The five levels
 
@@ -251,7 +265,10 @@ small exploratory project, Level 4 may be unnecessary. For a long-lived
 pipeline, a high-stakes analysis, or a project with many collaborators, the
 investment may be proportionate. The framework is therefore not an argument
 that every project should become Level 4. It is an argument that teams should
-be able to recognise when Level 4 is worth the effort.
+be able to recognise when Level 4 is worth the effort. This is especially
+visible in computationally intensive fields, where reproducibility depends not
+only on code, but also on assembling tools, libraries, parameters, and pipelines
+in ways that others can actually run [10].
 
 ### Level 5: Nirvana
 
@@ -325,7 +342,10 @@ written from one perspective will inevitably miss cases that are obvious to
 other communities. Contributions can help identify where a level description is
 too tool-specific, too strict, too permissive, or insufficiently sensitive to
 constraints such as data privacy, computational cost, proprietary instruments,
-or field-specific reporting norms.
+or field-specific reporting norms. This matters for reuse as well as
+reproduction: access to data or code alone may not transfer the tacit context
+needed to interpret them, especially when users are distant from the original
+data creators [11].
 
 The repository is also intended to become more interactive. Before publication,
 the plan is to add a GitHub Pages site that allows users to answer a short set
@@ -370,6 +390,13 @@ Several questions are useful across levels:
 These questions make clear that reproducibility is not only a technical state.
 It is also a relationship between a project, its users, its future, and the
 claims being made from it.
+
+They also connect to the idea of preproducibility: before arguing over whether
+results can be reproduced, a project should provide enough information for
+someone else to understand and attempt the work [12]. In practice, this often
+means starting with modest but powerful habits: record what generated each
+result, preserve the inputs and parameters, and make the link between a claim
+and its supporting output visible.
 
 ## Limitations
 
@@ -435,11 +462,13 @@ as described in the repository licence file.
 Daniel J. Stekhoven: conceptualisation, methodology, project administration,
 writing - original draft, writing - review and editing.
 
+Stefan Gerber: conceptualisation, methodology, writing - review and editing.
+
 ## Competing interests
 
 Daniel J. Stekhoven is the creator and maintainer of the Reproducibility Levels
-in Practice framework and repository. No financial competing interests are
-declared.
+in Practice framework and repository. Stefan Gerber is a contributor to the
+framework and manuscript. No financial competing interests are declared.
 
 ## Grant information
 
@@ -475,3 +504,27 @@ To be completed before submission.
 6. Stekhoven DJ. Reproducibility Levels in Practice. Version 1.0.1.
    Zenodo; 2026.
    doi: <https://doi.org/10.5281/zenodo.19616402>
+
+7. Peng RD. Reproducible research in computational science. Science.
+   2011;334(6060):1226-1227. doi: 10.1126/science.1213847
+
+8. Sandve GK, Nekrutenko A, Taylor J, Hovig E. Ten simple rules for
+   reproducible computational research. PLoS Computational Biology.
+   2013;9(10):e1003285.
+   doi: <https://doi.org/10.1371/journal.pcbi.1003285>
+
+9. Wilkinson MD, Dumontier M, Aalbersberg IJJ, et al. The FAIR Guiding
+   Principles for scientific data management and stewardship. Scientific Data.
+   2016;3:160018. doi: <https://doi.org/10.1038/sdata.2016.18>
+
+10. Gruning B, Chilton J, Koster J, Dale R, Soranzo N, van den Beek M,
+    et al. Practical computational reproducibility in the life sciences.
+    Cell Systems. 2018;6(6):631-635.
+    doi: <https://doi.org/10.1016/j.cels.2018.03.014>
+
+11. Pasquetto IV, Borgman CL, Wofford MF. Uses and reuses of scientific data:
+    The data creators' advantage. Harvard Data Science Review. 2019;1(2).
+    doi: <https://doi.org/10.1162/99608f92.fc14bf2d>
+
+12. Stark PB. Before reproducibility must come preproducibility. Nature.
+    2018;557:613. doi: <https://doi.org/10.1038/d41586-018-05256-0>

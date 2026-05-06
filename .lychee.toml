@@ -3,7 +3,9 @@ exclude = [
   "^http://localhost",
   "^https://localhost",
   # AAAS/Science blocks automated checks for this otherwise valid DOI.
-  "^https://doi\\.org/10\\.1126/scitranslmed\\.aaf5027$"
+  "^https://doi\\.org/10\\.1126/scitranslmed\\.aaf5027$",
+  # HDSR/MIT Press blocks automated checks for this otherwise valid DOI.
+  "^https://doi\\.org/10\\.1162/99608f92\\.fc14bf2d$"
 ]
 max_concurrency = 8
 retry_wait_time = 2
