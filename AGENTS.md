@@ -31,7 +31,7 @@ High-priority files and directories:
 
 - `README.md`: repository overview, citation guidance, release/publication alignment
 - `levels/level1.md` to `levels/level5.md`: the core narrative level descriptions
-- `reprolevel_manuscript.Rmd`: manuscript draft
+- `reprolevel_manuscript.md`: manuscript draft
 - `CONTRIBUTING.md`: contribution rules and writing guidance
 - `GOVERNANCE.md`: maintainership, decision-making, and versioning policy
 - `CHANGELOG.md`: release history

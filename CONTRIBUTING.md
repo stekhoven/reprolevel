@@ -20,7 +20,7 @@ Please take a quick look at:
 - [`README.md`](README.md) for the overall project framing;
 - the files in [`levels/`](levels/) for the level descriptions;
 - [`GOVERNANCE.md`](GOVERNANCE.md) for maintainership, decisions, and versioning policy;
-- [`reprolevel_manuscript.Rmd`](reprolevel_manuscript.Rmd) for the current manuscript draft.
+- [`reprolevel_manuscript.md`](reprolevel_manuscript.md) for the current manuscript draft.
 
 Before proposing a major change, it is helpful to be explicit about whether the suggestion is primarily about:
 
@@ -98,7 +98,7 @@ To keep the repository coherent, please follow these writing conventions:
 Examples:
 
 - prefer `organisation` over `organization`;
-- prefer `behaviour` over `behavior`;
+- prefer British spellings such as `behaviour`;
 - prefer `licence` for the noun in prose where appropriate, while keeping formal licence names unchanged.
 
 ## Repository conventions

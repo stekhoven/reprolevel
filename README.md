@@ -69,8 +69,7 @@ These levels are intended as practical archetypes, not rigid boxes. Real project
 
 - [`README.md`](README.md): project overview, navigation, citation, and governance summary
 - [`levels/`](levels/): the five detailed level descriptions
-- [`reprolevel_manuscript.Rmd`](reprolevel_manuscript.Rmd): current manuscript draft
-- [`reprolevel_manuscript.html`](reprolevel_manuscript.html): rendered manuscript output
+- [`reprolevel_manuscript.md`](reprolevel_manuscript.md): current plain Markdown manuscript draft
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution process and style guidance
 - [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md): community standards
 - [`GOVERNANCE.md`](GOVERNANCE.md): maintainers, decision-making, and versioning policy

@@ -6,6 +6,10 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 
 ## [Unreleased]
 
+### Changed
+
+- removed legacy RStudio and R Markdown manuscript artefacts now that the manuscript draft is maintained in plain Markdown
+
 ## [1.0.1] - 2026-05-06
 
 ### Added
