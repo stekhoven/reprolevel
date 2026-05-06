@@ -68,7 +68,8 @@ This project uses semantic versioning for the framework.
 
 Examples:
 
-- `1.0.0`: first publication-aligned public release
+- `1.0.0`: first public release of the framework
+- `1.0.1`: publication-aligned patch release with metadata and manuscript updates
 - `1.1.0`: meaningful revisions to level definitions or contributor-facing process
 - `1.1.1`: typo fixes, citation updates, or documentation corrections
 

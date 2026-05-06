@@ -6,6 +6,25 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-05-06
+
+### Added
+
+- plain Markdown draft manuscript for the planned F1000Research article
+- manuscript section describing the repository as a collaborative, living framework
+- planned GitHub Pages self-assessment concept for multidimensional reproducibility profiles
+- author ORCID in the manuscript metadata
+
+### Changed
+
+- updated framework version metadata from `1.0.0` to `1.0.1`
+- switched the README DOI badge image to shields.io while retaining the same DOI target
+- expanded spell-check dictionary entries for manuscript references and ORCID metadata
+
+### Fixed
+
+- excluded one otherwise valid AAAS DOI from automated link checking because the target blocks automated requests
+
 ## [1.0.0] - 2026-04-16
 
 ### Added

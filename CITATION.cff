@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this framework, please cite the repository version you used."
 title: "Reproducibility Levels in Practice"
 type: software
-version: 1.0.0
+version: 1.0.1
 doi: 10.5281/zenodo.19616402
 abstract: >-
   A living framework for reflecting on, discussing, and improving
@@ -19,13 +19,13 @@ keywords:
   - research practice
   - open science
   - framework
-date-released: 2026-04-16
+date-released: 2026-05-06
 preferred-citation:
   type: software
   title: "Reproducibility Levels in Practice"
   authors:
     - family-names: "Stekhoven"
       given-names: "Daniel J."
-  version: 1.0.0
+  version: 1.0.1
   doi: 10.5281/zenodo.19616402
   url: "https://github.com/stekhoven/reprolevel"

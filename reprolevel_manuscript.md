@@ -425,7 +425,7 @@ article are openly available:
 
 - Source repository: <https://github.com/stekhoven/reprolevel>
 - Archived framework release: <https://doi.org/10.5281/zenodo.19616402>
-- Repository version described by this draft: `v1.0.0`
+- Repository version described by this draft: `v1.0.1`
 
 The repository is licensed under CC BY 4.0 for documentation and MIT for code,
 as described in the repository licence file.
@@ -472,5 +472,6 @@ To be completed before submission.
    bioinformatics era. Genome Biology. 2024;25:213.
    doi: <https://doi.org/10.1186/s13059-024-03343-2>
 
-6. Stekhoven DJ. Reproducibility Levels in Practice. Zenodo; 2026.
+6. Stekhoven DJ. Reproducibility Levels in Practice. Version 1.0.1.
+   Zenodo; 2026.
    doi: <https://doi.org/10.5281/zenodo.19616402>

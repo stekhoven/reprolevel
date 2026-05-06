@@ -12,7 +12,7 @@ _A living framework for reflecting on, discussing, and improving computational r
 
 **Status:** Active draft and open for community input
 
-**Current framework version:** `1.0.0`
+**Current framework version:** `1.0.1`
 
 ## What this repository is
 
@@ -133,11 +133,11 @@ This project adopts **semantic versioning** for the framework.
 - **Minor versions** reflect meaningful extensions or revisions to level definitions, governance, or supporting materials.
 - **Patch versions** reflect smaller corrections such as wording, formatting, citation metadata, or non-substantive fixes.
 
-The current public release is `1.0.0`.
+The current public release is `1.0.1`.
 
 Releases should:
 
-- be tagged in GitHub using semantic version tags such as `v1.0.0`;
+- be tagged in GitHub using semantic version tags such as `v1.0.1`;
 - be archived in Zenodo or a similar service to mint a DOI;
 - update [`CITATION.cff`](CITATION.cff), [`CHANGELOG.md`](CHANGELOG.md), and the citation section of this README;
 - clearly state which framework version corresponds to any formal publication.
@@ -146,11 +146,13 @@ Releases should:
 
 Please cite the repository version you used.
 
-Preferred citation for `v1.0.0`:
+Preferred citation for `v1.0.1`:
 
 - Zenodo DOI: `10.5281/zenodo.19616402`
 - DOI link: https://doi.org/10.5281/zenodo.19616402
-- Repository version: `v1.0.0`
+- Repository version: `v1.0.1`
+
+If Zenodo mints a version-specific DOI for `v1.0.1`, this section should be updated to point to that archived release.
 
 Once the F1000Research article is available, this section should also include the linked article citation.
 
@@ -161,7 +163,7 @@ Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff
 Formal publication information should be listed here once available.
 
 - F1000Research article: placeholder until publication
-- repository version aligned with the paper: `v1.0.0`
+- repository version aligned with the paper: `v1.0.1`
 
 ## Publication sync
 
@@ -179,7 +181,8 @@ Once the F1000Research article is published, this README should document:
 
 Planned publication linkage:
 
-- `v1.0.0`: first public release intended to align with the first published F1000Research article
+- `v1.0.0`: first public release of the framework
+- `v1.0.1`: patch release intended to align with the first F1000Research article unless superseded before publication
 - later versions: living updates based on community input and framework evolution
 
 ## Automation and quality checks
