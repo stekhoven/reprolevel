@@ -8,7 +8,7 @@ _A living framework for reflecting on, discussing, and improving computational r
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
 [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19616402-blue)](https://doi.org/10.5281/zenodo.19616402)
 
-**Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch
+**Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch; Stefan Gerber, gerber@nexus.ethz.ch
 
 **Status:** Active draft and open for community input
 
