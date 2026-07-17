@@ -10,7 +10,7 @@
 
 **ORCID:** Daniel J. Stekhoven,
 [0000-0003-3163-3161](https://orcid.org/0000-0003-3163-3161); Stefan Gerber,
-[0000-0002-2187-2727](https://orcid.org/0000-0002-2187-2727)]
+[0000-0002-2187-2727](https://orcid.org/0000-0002-2187-2727)
 
 ## Abstract
 
@@ -91,8 +91,8 @@ given project.
 Many discussions of reproducible research move quickly from principles to
 tools: use version control, use a workflow manager, use containers, archive the
 data, add continuous integration, publish a computational environment. These
-are useful practices, but presented as an undifferentiated list they can feel
-like an intimidating shopping basket. For a researcher working under deadline,
+are useful practices, but presented as an undifferentiated list, they can feel
+like an intimidating shopping basket. For a researcher working under a deadline,
 the gap between an improvised spreadsheet and a containerised workflow with
 continuous integration can appear impossibly large.
 
@@ -205,11 +205,11 @@ structure. The work can often be rerun next week or next month, especially on
 the same machine by the same person.
 
 This is a major improvement over Level 1. Results are no longer detached from
-process. Scripts can be corrected and rerun. Notes can explain decisions. A
+the process. Scripts can be corrected and rerun. Notes can explain decisions. A
 colleague may be able to follow the work with guidance. However, the shelf life
 is limited. Dependencies may have been installed as needed without version
 records. Documentation may lag behind code. Manual steps may remain between
-scripts. Version control, if used, may function more as backup than as a
+scripts. Version control, if used, may function more as a backup than as a
 reliable project history.
 
 The priority at Level 2 is to reduce ambiguity. Formal version control,
@@ -267,14 +267,14 @@ investment may be proportionate. The framework is therefore not an argument
 that every project should become Level 4. It is an argument that teams should
 be able to recognise when Level 4 is worth the effort. This is especially
 visible in computationally intensive fields, where reproducibility depends not
-only on code, but also on assembling tools, libraries, parameters, and pipelines
+only on code but also on assembling tools, libraries, parameters, and pipelines
 in ways that others can actually run [10].
 
 ### Level 5: Nirvana
 
 Level 5 is the aspirational end of the scale: reproduction is not only possible
 but convenient for people outside the original team. The analysis may be
-launchable through a browser or a single command. The computational environment
+launched through a browser or a single command. The computational environment
 is archived or otherwise recoverable. The publication itself may be generated
 from the same pipeline as the figures and tables. Code, data, environment
 snapshots, and releases have persistent identifiers. Documentation covers
@@ -313,8 +313,8 @@ may need Level 4 or 5.
 The third use is teaching. Reproducibility training often introduces tools in
 isolation. The levels provide a narrative for why those tools matter. Version
 control is not an abstract virtue; it moves work away from fragile file
-versions and towards traceable history. Workflow management is not mere
-engineering ornament; it turns remembered sequences into executable structure.
+versions and towards a traceable history. Workflow management is not a mere
+engineering ornament; it turns remembered sequences into an executable structure.
 Containers are not a badge of sophistication; they reduce environment
 ambiguity when portability matters.
 
