@@ -22,7 +22,7 @@ workflows, towards portable, automated, and archived computational processes.
 Researchers need language that helps them recognise this progression without
 turning reproducibility into a punitive checklist or a contest of tools.
 
-This Opinion Article presents Reproducibility Levels in Practice, a five-level
+We propose Reproducibility Levels in Practice, a five-level
 framework for describing computational reproducibility in research workflows.
 The levels are: Level 1, Ephemeral Work; Level 2, Carpe Diem; Level 3, Sweet
 Spot; Level 4, Assembly Line; and Level 5, Nirvana. Each level describes a
@@ -68,7 +68,7 @@ genomics, for example, stochastic tools, data ordering, and sequencing
 variation can complicate the expectation that the same biological sample will
 produce identical computational outputs [5].
 
-This article focuses on a narrower but important part of that landscape:
+Our work focuses on a narrower but important part of that landscape:
 computational reproducibility in everyday research practice. The practical
 question is not only "Can this result be reproduced?" but also "By whom, when,
 with how much effort, and under what conditions?" An analysis that can be
@@ -77,7 +77,7 @@ an analysis that can be launched by an external reader five years after
 publication. Both may represent progress relative to undocumented manual work,
 but they serve different purposes and carry different risks.
 
-The Reproducibility Levels in Practice framework was developed to make these
+The Reproducibility Levels in Practice framework was proposed to make these
 differences easier to discuss [6]. It frames computational reproducibility as a
 progression of capabilities rather than a binary label. The aim is not to
 shame researchers who are early in the process, nor to imply that every project
@@ -445,7 +445,7 @@ work.
 
 ## Data and software availability
 
-No new research data are associated with this article.
+No data are associated with this article.
 
 The source framework and versioned repository materials used to prepare this
 article are openly available:
@@ -472,13 +472,17 @@ framework and manuscript. No financial competing interests are declared.
 
 ## Grant information
 
-To be completed before submission. If no specific grant supported this work,
-the statement may be: "The author declared that no grants were involved in
-supporting this work."
+The author declared that no grants were involved in supporting this work.
 
 ## Acknowledgements
 
-To be completed before submission.
+OpenAI Codex, using the GPT-5 model (accessed 17 July 2026), was used to
+assist with developing and maintaining the accompanying repository and with
+drafting, revising, formatting, and checking this manuscript. It was used to
+improve clarity and consistency, support repository documentation and
+code-related tasks, and prepare the manuscript for submission. The authors
+reviewed and, where necessary, revised all AI-assisted outputs and take full
+responsibility for the content of the repository and article.
 
 ## References
 
@@ -506,7 +510,7 @@ To be completed before submission.
    doi: <https://doi.org/10.5281/zenodo.19616402>
 
 7. Peng RD. Reproducible research in computational science. Science.
-   2011;334(6060):1226-1227. doi: 10.1126/science.1213847
+   2011;334(6060):1226-1227. doi: <https://doi.org/10.1126/science.1213847>
 
 8. Sandve GK, Nekrutenko A, Taylor J, Hovig E. Ten simple rules for
    reproducible computational research. PLoS Computational Biology.
