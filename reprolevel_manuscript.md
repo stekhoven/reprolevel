@@ -1,7 +1,5 @@
 # Reproducibility Levels in Practice: a pragmatic framework for computational research
 
-**Article type:** Opinion Article
-
 **Authors:** Stefan Gerber; Daniel J. Stekhoven
 
 **Affiliation:** NEXUS Personalized Health, ETH Zurich
@@ -38,6 +36,10 @@ lower levels as failures, the framework treats them as starting points for
 improvement. A levels-based view can make reproducibility more approachable,
 more actionable, and more honest about the trade-offs involved in real research
 practice.
+
+The framework is maintained as a living GitHub project, with selected releases
+archived in Zenodo to provide stable, citable snapshots. This arrangement
+allows the framework to evolve without obscuring which version a reader used.
 
 **Keywords:** computational reproducibility; reproducible research; open
 science; research practice; workflow management; version control; containers;
@@ -77,7 +79,7 @@ an analysis that can be launched by an external reader five years after
 publication. Both may represent progress relative to undocumented manual work,
 but they serve different purposes and carry different risks.
 
-The Reproducibility Levels in Practice framework was proposed to make these
+The Reproducibility Levels in Practice framework was developed to make these
 differences easier to discuss [6]. It frames computational reproducibility as a
 progression of capabilities rather than a binary label. The aim is not to
 shame researchers who are early in the process, nor to imply that every project
@@ -86,7 +88,7 @@ shared vocabulary for locating current practice, identifying the next useful
 improvement, and deciding what level of reproducibility is proportionate for a
 given project.
 
-## Why a levels framework is useful
+## Rationale and design principles
 
 Many discussions of reproducible research move quickly from principles to
 tools: use version control, use a workflow manager, use containers, archive the
@@ -325,16 +327,19 @@ need a container because their institution uses a different operating system.
 Instead of debating reproducibility in general terms, the team can discuss
 which level is needed for which audience and why.
 
-## A living and interactive framework
+## A versioned and living framework
 
-The framework is also intended to remain a collaborative piece of work rather
-than a closed publication artefact. The accompanying repository is designed as
-the living home of the framework, where researchers, research software
-engineers, data stewards, educators, and other interested contributors can add
-ideas, examples, critiques, opinions, and proposed wording changes. Future
-versions of both the manuscript and the level descriptions should therefore be
-able to incorporate community contributions while preserving a clear versioned
-record of what changed and why.
+The framework combines stable, citable snapshots with ongoing community
+development. Selected releases are archived in Zenodo, while the accompanying
+GitHub repository remains the living home of the framework. This manuscript
+describes framework version `v1.0.1`; later releases may extend or revise the
+framework while preserving a clear record of what changed and why. Readers
+should therefore cite the version they used.
+
+The repository allows researchers, research software engineers, data stewards,
+educators, and other interested contributors to propose ideas, examples,
+critiques, and wording changes. This model keeps the scientific argument open
+to refinement without obscuring the content of earlier published versions.
 
 This collaborative model is important because reproducibility practices are
 not uniform across disciplines, institutions, or project types. A framework
@@ -347,14 +352,13 @@ reproduction: access to data or code alone may not transfer the tacit context
 needed to interpret them, especially when users are distant from the original
 data creators [11].
 
-The repository is also intended to become more interactive. Before publication,
-the plan is to add a GitHub Pages site that allows users to answer a short set
-of questions and receive a reflective assessment of their current
-reproducibility level. This should not function as a formal certification or a
-single score. Instead, the questionnaire should help users see where their work
-sits across several domains, such as version control, workflow structure,
-environment capture, data management, documentation, validation, sharing, and
-long-term preservation.
+A planned extension is an interactive self-assessment that allows users to
+answer a short set of questions and reflect on their current reproducibility
+level. It should not function as a formal certification or produce a single
+authoritative score. Instead, it should help users consider where their work
+sits across domains such as version control, workflow structure, environment
+capture, data management, documentation, validation, sharing, and long-term
+preservation.
 
 Such a multidimensional assessment is necessary because a project can occupy
 different levels in different areas. A team may have excellent version control
@@ -443,46 +447,45 @@ levels-based approach can help researchers pursue reproducibility with more
 precision, less anxiety, and better alignment with the real demands of their
 work.
 
-## Data and software availability
+## Availability and versioning
 
-No data are associated with this article.
+This is a conceptual framework; no research data were generated or analysed.
 
-The source framework and versioned repository materials used to prepare this
-article are openly available:
+The manuscript and source framework are openly available:
 
 - Source repository: <https://github.com/stekhoven/reprolevel>
-- Archived framework release: <https://doi.org/10.5281/zenodo.19616402>
-- Repository version described by this draft: `v1.0.1`
+- Archived framework release (`v1.0.0`):
+  <https://doi.org/10.5281/zenodo.19616402>
+- Framework version described in this manuscript: `v1.0.1`
 
 The repository is licensed under CC BY 4.0 for documentation and MIT for code,
 as described in the repository licence file.
 
-## Author contributions
+## Declarations
+
+### Author contributions
 
 Daniel J. Stekhoven: conceptualisation, methodology, project administration,
-writing - original draft, writing - review and editing.
+writing – original draft, writing – review and editing.
 
-Stefan Gerber: conceptualisation, methodology, writing - review and editing.
+Stefan Gerber: conceptualisation, methodology, writing – review and editing.
 
-## Competing interests
+### Competing interests
 
-Daniel J. Stekhoven is the creator and maintainer of the Reproducibility Levels
-in Practice framework and repository. Stefan Gerber is a contributor to the
-framework and manuscript. No financial competing interests are declared.
+The authors declare no financial or non-financial competing interests.
 
-## Grant information
+### Funding
 
-The author declared that no grants were involved in supporting this work.
+This work received no specific grant from any funding agency in the public,
+commercial, or not-for-profit sectors.
 
-## Acknowledgements
+### Acknowledgements
 
-OpenAI Codex, using the GPT-5 model (accessed 17 July 2026), was used to
-assist with developing and maintaining the accompanying repository and with
-drafting, revising, formatting, and checking this manuscript. It was used to
-improve clarity and consistency, support repository documentation and
-code-related tasks, and prepare the manuscript for submission. The authors
-reviewed and, where necessary, revised all AI-assisted outputs and take full
-responsibility for the content of the repository and article.
+OpenAI Codex, using GPT-5, assisted with developing and maintaining the
+accompanying repository and with drafting, revising, formatting, and checking
+this manuscript. The authors reviewed and, where necessary, revised all
+AI-assisted outputs and take full responsibility for the content of the
+repository and manuscript.
 
 ## References
 
@@ -505,7 +508,7 @@ responsibility for the content of the repository and article.
    bioinformatics era. Genome Biology. 2024;25:213.
    doi: <https://doi.org/10.1186/s13059-024-03343-2>
 
-6. Stekhoven DJ. Reproducibility Levels in Practice. Version 1.0.1.
+6. Stekhoven DJ. Reproducibility Levels in Practice. Version 1.0.0.
    Zenodo; 2026.
    doi: <https://doi.org/10.5281/zenodo.19616402>
 

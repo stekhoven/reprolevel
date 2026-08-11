@@ -9,6 +9,12 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 ### Changed
 
 - removed legacy RStudio and R Markdown manuscript artefacts now that the manuscript draft is maintained in plain Markdown
+- removed the obsolete F1000Research Word submission artefact; the Markdown
+  manuscript is now the canonical source for generating the Zenodo HTML
+- revised the manuscript from an F1000Research-specific Opinion Article format
+  into a venue-neutral scientific manuscript for versioned Zenodo publication
+- clarified that DOI `10.5281/zenodo.19616402` identifies the archived `v1.0.0`
+  framework release and is not the DOI for repository version `v1.0.1`
 
 ## [1.0.1] - 2026-05-06
 

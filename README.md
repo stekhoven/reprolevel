@@ -27,7 +27,7 @@ The core idea is simple:
 
 The `repro levels` in this repository are meant to be a **reflective self-assessment tool**, a **conversation starter**, and a **community artefact** that can improve over time.
 
-This project is also being developed with a future **F1000Research opinion piece** in mind. The paper will present the framing and argument, while this GitHub repository is intended to remain the living, evolving home of the framework.
+The framework combines **versioned publication through Zenodo** with ongoing development on GitHub. The manuscript presents the framing and scientific argument, Zenodo preserves citable snapshots, and this repository remains the living, evolving home of the framework.
 
 ## Why this exists
 
@@ -132,7 +132,8 @@ This project adopts **semantic versioning** for the framework.
 - **Minor versions** reflect meaningful extensions or revisions to level definitions, governance, or supporting materials.
 - **Patch versions** reflect smaller corrections such as wording, formatting, citation metadata, or non-substantive fixes.
 
-The current public release is `1.0.1`.
+The current repository version is `1.0.1`. The latest version archived in
+Zenodo is `v1.0.0`.
 
 Releases should:
 
@@ -145,33 +146,39 @@ Releases should:
 
 Please cite the repository version you used.
 
-Preferred citation for `v1.0.1`:
+Archived citation for `v1.0.0`:
 
 - Zenodo DOI: `10.5281/zenodo.19616402`
 - DOI link: https://doi.org/10.5281/zenodo.19616402
-- Repository version: `v1.0.1`
+- Repository version: `v1.0.0`
 
-If Zenodo mints a version-specific DOI for `v1.0.1`, this section should be updated to point to that archived release.
+The current repository version, `v1.0.1`, does not yet have a version-specific
+Zenodo DOI. Its citation metadata therefore does not reuse the DOI for
+`v1.0.0`.
 
-Once the F1000Research article is available, this section should also include the linked article citation.
+The DOI for the initial Zenodo manuscript publication should be added here once
+the deposit is complete.
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
-## Formal publications
+## Versioned publications
 
-Formal publication information should be listed here once available.
+The framework release and manuscript are versioned independently when needed:
 
-- F1000Research article: placeholder until publication
-- repository version aligned with the paper: `v1.0.1`
+- archived framework release: `v1.0.0`,
+  <https://doi.org/10.5281/zenodo.19616402>
+- initial manuscript publication: Zenodo deposit in preparation
+- framework version described by the manuscript: `v1.0.1`
 
 ## Publication sync
 
-The repository and the future paper serve related but different purposes.
+The repository and the versioned manuscript serve related but different
+purposes.
 
-- The **paper** is intended to present the motivation, framing, and opinionated argument for why a levels-based view is useful.
+- The **manuscript** presents the motivation, framing, and scientific argument for why a levels-based view is useful.
 - The **repository** is intended to remain the open, revisable, community-facing version of the framework.
 
-Once the F1000Research article is published, this README should document:
+Once the initial Zenodo manuscript is deposited, this README should document:
 
 - the exact repository version described by the paper;
 - the formal citation for the article;
@@ -181,7 +188,7 @@ Once the F1000Research article is published, this README should document:
 Planned publication linkage:
 
 - `v1.0.0`: first public release of the framework
-- `v1.0.1`: patch release intended to align with the first F1000Research article unless superseded before publication
+- `v1.0.1`: patch release intended to align with the initial Zenodo manuscript unless superseded before publication
 - later versions: living updates based on community input and framework evolution
 
 ## Automation and quality checks
