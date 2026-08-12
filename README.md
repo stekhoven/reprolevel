@@ -132,8 +132,9 @@ This project adopts **semantic versioning** for the framework.
 - **Minor versions** reflect meaningful extensions or revisions to level definitions, governance, or supporting materials.
 - **Patch versions** reflect smaller corrections such as wording, formatting, citation metadata, or non-substantive fixes.
 
-The current development version is `1.0.1`. The latest version archived in
-Zenodo is `v1.0.0`.
+The current public release is `v1.0.1`. Its version-specific Zenodo DOI will be
+added after the GitHub release has been archived. The latest version currently
+archived in Zenodo is `v1.0.0`.
 
 Releases should:
 

@@ -6,8 +6,7 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 
 ## [Unreleased]
 
-The changes below are planned for `v1.0.1`. The release date and
-version-specific Zenodo DOI will be added when the release is published.
+## [1.0.1] - 2026-08-12
 
 ### Added
 
