@@ -6,7 +6,7 @@ _A living framework for reflecting on, discussing, and improving computational r
 [![Docs Quality](https://github.com/stekhoven/reprolevel/actions/workflows/docs-quality.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/docs-quality.yml)
 [![Citation Validation](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19616402-blue)](https://doi.org/10.5281/zenodo.19616402)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21900166-blue)](https://doi.org/10.5281/zenodo.21900166)
 
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch; Stefan Gerber, gerber@nexus.ethz.ch
 
@@ -70,6 +70,8 @@ These levels are intended as practical archetypes, not rigid boxes. Real project
 - [`README.md`](README.md): project overview, navigation, citation, and governance summary
 - [`levels/`](levels/): the five detailed level descriptions
 - [`reprolevel_manuscript.md`](reprolevel_manuscript.md): current plain Markdown manuscript draft
+- [`scripts/build_manuscript.sh`](scripts/build_manuscript.sh): reproducible HTML and PDF manuscript build
+- [`docs/zenodo-manuscript-deposit.md`](docs/zenodo-manuscript-deposit.md): metadata and checklist for the separate manuscript record
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution process and style guidance
 - [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md): community standards
 - [`GOVERNANCE.md`](GOVERNANCE.md): maintainers, decision-making, and versioning policy
@@ -132,9 +134,8 @@ This project adopts **semantic versioning** for the framework.
 - **Minor versions** reflect meaningful extensions or revisions to level definitions, governance, or supporting materials.
 - **Patch versions** reflect smaller corrections such as wording, formatting, citation metadata, or non-substantive fixes.
 
-The current public release is `v1.0.1`. Its version-specific Zenodo DOI will be
-added after the GitHub release has been archived. The latest version currently
-archived in Zenodo is `v1.0.0`.
+The current public release is `v1.0.1`, archived in Zenodo with the
+version-specific DOI `10.5281/zenodo.21900166`.
 
 Releases should:
 
@@ -147,15 +148,15 @@ Releases should:
 
 Please cite the repository version you used.
 
-Archived citation for `v1.0.0`:
+Preferred citation for `v1.0.1`:
 
-- Zenodo DOI: `10.5281/zenodo.19616402`
-- DOI link: https://doi.org/10.5281/zenodo.19616402
-- Repository version: `v1.0.0`
+- Zenodo DOI: `10.5281/zenodo.21900166`
+- DOI link: https://doi.org/10.5281/zenodo.21900166
+- Repository version: `v1.0.1`
 
-The current repository version, `v1.0.1`, does not yet have a version-specific
-Zenodo DOI. Its citation metadata therefore does not reuse the DOI for
-`v1.0.0`.
+The concept DOI `10.5281/zenodo.19616401` resolves to the latest archived
+framework version. Cite the version-specific DOI above when referring to the
+version used.
 
 The reserved DOI for the initial Zenodo manuscript is
 `10.5281/zenodo.21899772`. It will become active and citable when the manuscript
@@ -167,10 +168,10 @@ Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff
 
 The framework release and manuscript are versioned independently when needed:
 
-- archived framework release: `v1.0.0`,
-  <https://doi.org/10.5281/zenodo.19616402>
-- initial manuscript publication: Zenodo deposit in preparation; reserved DOI
-  `10.5281/zenodo.21899772`
+- archived framework release: `v1.0.1`,
+  <https://doi.org/10.5281/zenodo.21900166>
+- initial manuscript publication: version `1.0` Zenodo deposit in preparation;
+  reserved DOI `10.5281/zenodo.21899772`
 - framework version described by the manuscript: `v1.0.1`
 
 ## Publication sync
@@ -193,6 +194,18 @@ Planned publication linkage:
 - `v1.0.0`: first public release of the framework
 - `v1.0.1`: patch release intended to align with the initial Zenodo manuscript unless superseded before publication
 - later versions: living updates based on community input and framework evolution
+
+## Building the manuscript
+
+The Markdown manuscript is the canonical source. To generate the standalone
+HTML, PDF, and deposit copy of the Markdown source, install Pandoc and a
+XeLaTeX distribution, then run:
+
+```sh
+./scripts/build_manuscript.sh
+```
+
+The generated deposit files are written to `dist/` and are not committed.
 
 ## Automation and quality checks
 

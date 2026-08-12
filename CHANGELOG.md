@@ -6,6 +6,17 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 
 ## [Unreleased]
 
+### Added
+
+- reproducible Pandoc build for standalone HTML and PDF manuscript outputs
+- prepared metadata and checklist for the separate Zenodo manuscript record
+
+### Changed
+
+- added the version-specific `v1.0.1` framework DOI to citation metadata,
+  repository guidance, and the manuscript
+- assigned version `1.0` to the independently versioned manuscript
+
 ## [1.0.1] - 2026-08-12
 
 ### Added

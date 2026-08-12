@@ -5,3 +5,4 @@
 *.Rproj
 reprolevel_manuscript.Rmd
 reprolevel_manuscript.html
+/dist/

@@ -6,11 +6,13 @@
 
 **Correspondence:** stekhoven@nexus.ethz.ch
 
+**Version:** 1.0
+
 **ORCID:** Daniel J. Stekhoven,
 [0000-0003-3163-3161](https://orcid.org/0000-0003-3163-3161); Stefan Gerber,
 [0000-0002-2187-2727](https://orcid.org/0000-0002-2187-2727)
 
-**Manuscript DOI (reserved):** `10.5281/zenodo.21899772`
+**DOI:** `10.5281/zenodo.21899772`
 
 ## Abstract
 
@@ -456,11 +458,10 @@ This is a conceptual framework; no research data were generated or analysed.
 The manuscript and source framework are openly available:
 
 - Source repository: <https://github.com/stekhoven/reprolevel>
-- Archived framework release (`v1.0.0`):
-  <https://doi.org/10.5281/zenodo.19616402>
+- Archived framework release (`v1.0.1`):
+  <https://doi.org/10.5281/zenodo.21900166>
 - Framework version described in this manuscript: `v1.0.1`
-- Manuscript DOI (reserved; activated when the Zenodo record is published):
-  `10.5281/zenodo.21899772`
+- Manuscript version and DOI: `1.0`, `10.5281/zenodo.21899772`
 
 The repository is licensed under CC BY 4.0 for documentation and MIT for code,
 as described in the repository licence file.
@@ -512,9 +513,9 @@ repository and manuscript.
    bioinformatics era. Genome Biology. 2024;25:213.
    doi: <https://doi.org/10.1186/s13059-024-03343-2>
 
-6. Stekhoven DJ. Reproducibility Levels in Practice. Version 1.0.0.
+6. Stekhoven DJ, Gerber S. Reproducibility Levels in Practice. Version 1.0.1.
    Zenodo; 2026.
-   doi: <https://doi.org/10.5281/zenodo.19616402>
+   doi: <https://doi.org/10.5281/zenodo.21900166>
 
 7. Peng RD. Reproducible research in computational science. Science.
    2011;334(6060):1226-1227. doi: <https://doi.org/10.1126/science.1213847>
