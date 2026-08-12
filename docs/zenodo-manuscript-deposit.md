@@ -1,16 +1,25 @@
 # Zenodo manuscript deposit
 
-This checklist describes the separate Zenodo publication record for the
-manuscript. It must not be added as a new version of the software record.
+This document records the separate Zenodo publication of manuscript version
+`1.0` and provides a reusable checklist for later manuscript versions. The
+manuscript must not be added as a new version of the software record.
+
+## Publication status
+
+- **Status:** Published
+- **Record:** <https://zenodo.org/records/21899772>
+- **Version-specific DOI:** `10.5281/zenodo.21899772`
+- **Concept DOI:** `10.5281/zenodo.21899771`
+- **Publication date:** `2026-08-12`
 
 ## Record metadata
 
-- **Reserved DOI:** `10.5281/zenodo.21899772`
+- **DOI:** `10.5281/zenodo.21899772`
 - **Resource type:** Publication
 - **Publication type:** Preprint
 - **Title:** Reproducibility Levels in Practice: a pragmatic framework for computational research
 - **Version:** `1.0`
-- **Publication date:** `2026-08-12` (confirm on the day of publication)
+- **Publication date:** `2026-08-12`
 - **Language:** English
 - **Access:** Open
 - **Licence:** Creative Commons Attribution 4.0 International
@@ -20,10 +29,10 @@ manuscript. It must not be added as a new version of the software record.
 Enter the creators in manuscript order:
 
 1. Gerber, Stefan
-   - affiliation: NEXUS Personalized Health, ETH Zurich
+   - affiliation: ETH Zurich
    - ORCID: `0000-0002-2187-2727`
 2. Stekhoven, Daniel J.
-   - affiliation: NEXUS Personalized Health, ETH Zurich
+   - affiliation: ETH Zurich
    - ORCID: `0000-0003-3163-3161`
 
 ## Description
@@ -69,15 +78,22 @@ This manuscript describes framework version `v1.0.1`.
 - containers
 - research software engineering
 
-## Related work
+## Related records
 
-Add the following related identifier:
+The published manuscript record contains:
 
 - **Identifier:** `10.5281/zenodo.21900166`
 - **Relation:** Documents
 - **Resource type:** Software
 
-## Files
+The framework software record at <https://zenodo.org/records/21900166>
+contains the reciprocal relation:
+
+- **Identifier:** `10.5281/zenodo.21899772`
+- **Relation:** Is described by
+- **Resource type:** Preprint
+
+## Reproducing the deposit files
 
 Generate the deposit package with:
 
@@ -87,21 +103,27 @@ Generate the deposit package with:
 
 The build requires Pandoc and XeLaTeX.
 
-Upload all three generated files:
+The published record contains all three generated files:
 
-- `dist/reprolevel-manuscript-v1.0.md`
-- `dist/reprolevel-manuscript-v1.0.html`
-- `dist/reprolevel-manuscript-v1.0.pdf`
+| File | Size (bytes) | MD5 checksum |
+| --- | ---: | --- |
+| `reprolevel-manuscript-v1.0.md` | 30,815 | `6ec47b6b4fe7a58ce6e1263e821b6f59` |
+| `reprolevel-manuscript-v1.0.html` | 35,250 | `ebde10569bc8e73360444cc3511d5b0d` |
+| `reprolevel-manuscript-v1.0.pdf` | 68,980 | `bb3ccbbaf5d28d97fe2858e2e0b9ec7a` |
 
 The three files must be generated from the same committed Markdown source.
+The checksums above were verified against the public Zenodo record.
 
-## Final checks before publication
+## Checklist for a later manuscript version
 
-- confirm the reserved DOI is `10.5281/zenodo.21899772`;
-- confirm the publication date;
+- create a new version of the manuscript record, not the software record;
+- update the manuscript version, version-specific DOI, and publication date in
+  the source and repository guidance;
+- state the exact framework release described by the new manuscript version;
+- generate all three files from the same committed Markdown source;
 - confirm both creators, their order, affiliations, and ORCIDs;
-- confirm manuscript version `1.0` and framework version `v1.0.1`;
 - confirm the related software DOI and `Documents` relation;
-- confirm all three files open correctly;
-- publish only after the reciprocal relation from the software record has been
-  planned or added.
+- confirm all three generated files open correctly;
+- after publication, add or update the reciprocal `Is described by` relation
+  on the corresponding software record;
+- record the published file sizes and checksums here.

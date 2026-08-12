@@ -6,11 +6,12 @@ _A living framework for reflecting on, discussing, and improving computational r
 [![Docs Quality](https://github.com/stekhoven/reprolevel/actions/workflows/docs-quality.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/docs-quality.yml)
 [![Citation Validation](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml/badge.svg)](https://github.com/stekhoven/reprolevel/actions/workflows/citation.yml)
 ![GitHub last commit](https://img.shields.io/github/last-commit/stekhoven/reprolevel)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21900166-blue)](https://doi.org/10.5281/zenodo.21900166)
+[![Framework DOI](https://img.shields.io/badge/framework_DOI-10.5281%2Fzenodo.21900166-blue)](https://doi.org/10.5281/zenodo.21900166)
+[![Manuscript DOI](https://img.shields.io/badge/manuscript_DOI-10.5281%2Fzenodo.21899772-blue)](https://doi.org/10.5281/zenodo.21899772)
 
 **Author:** Daniel J. Stekhoven, stekhoven@nexus.ethz.ch; Stefan Gerber, gerber@nexus.ethz.ch
 
-**Status:** Active draft and open for community input
+**Status:** Active living framework and open for community input
 
 **Current framework version:** `1.0.1`
 
@@ -69,9 +70,9 @@ These levels are intended as practical archetypes, not rigid boxes. Real project
 
 - [`README.md`](README.md): project overview, navigation, citation, and governance summary
 - [`levels/`](levels/): the five detailed level descriptions
-- [`reprolevel_manuscript.md`](reprolevel_manuscript.md): current plain Markdown manuscript draft
+- [`reprolevel_manuscript.md`](reprolevel_manuscript.md): source of the published version 1.0 manuscript
 - [`scripts/build_manuscript.sh`](scripts/build_manuscript.sh): reproducible HTML and PDF manuscript build
-- [`docs/zenodo-manuscript-deposit.md`](docs/zenodo-manuscript-deposit.md): metadata and checklist for the separate manuscript record
+- [`docs/zenodo-manuscript-deposit.md`](docs/zenodo-manuscript-deposit.md): publication metadata and reusable deposit checklist for the separate manuscript record
 - [`CONTRIBUTING.md`](CONTRIBUTING.md): contribution process and style guidance
 - [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md): community standards
 - [`GOVERNANCE.md`](GOVERNANCE.md): maintainers, decision-making, and versioning policy
@@ -146,23 +147,37 @@ Releases should:
 
 ## Citation
 
-Please cite the repository version you used.
+The framework release and manuscript are separate, linked research outputs.
+Choose the citation that matches how you use the work:
 
-Preferred citation for `v1.0.1`:
+- Cite the **framework software release** when applying the levels, using the
+  repository materials, or referring to a specific framework version.
+- Cite the **manuscript** when referring to the scientific rationale, framing,
+  limitations, or discussion of the levels-based approach.
+- Cite both when your use depends materially on both outputs.
 
-- Zenodo DOI: `10.5281/zenodo.21900166`
-- DOI link: https://doi.org/10.5281/zenodo.21900166
-- Repository version: `v1.0.1`
+Framework release `v1.0.1`:
+
+> Stekhoven DJ, Gerber S. Reproducibility Levels in Practice. Version 1.0.1.
+> Zenodo; 2026. <https://doi.org/10.5281/zenodo.21900166>
 
 The concept DOI `10.5281/zenodo.19616401` resolves to the latest archived
 framework version. Cite the version-specific DOI above when referring to the
 version used.
 
-The reserved DOI for the initial Zenodo manuscript is
-`10.5281/zenodo.21899772`. It will become active and citable when the manuscript
-record is published.
+Manuscript version `1.0`:
+
+> Gerber S, Stekhoven DJ. Reproducibility Levels in Practice: a pragmatic
+> framework for computational research. Version 1.0. Zenodo; 2026.
+> <https://doi.org/10.5281/zenodo.21899772>
+
+The manuscript concept DOI `10.5281/zenodo.21899771` resolves to its latest
+published version. Cite the version-specific DOI above when referring to
+manuscript version `1.0`.
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
+It intentionally describes the framework software rather than the separately
+published manuscript.
 
 ## Versioned publications
 
@@ -170,8 +185,8 @@ The framework release and manuscript are versioned independently when needed:
 
 - archived framework release: `v1.0.1`,
   <https://doi.org/10.5281/zenodo.21900166>
-- initial manuscript publication: version `1.0` Zenodo deposit in preparation;
-  reserved DOI `10.5281/zenodo.21899772`
+- published manuscript: version `1.0`,
+  <https://doi.org/10.5281/zenodo.21899772>
 - framework version described by the manuscript: `v1.0.1`
 
 ## Publication sync
@@ -182,18 +197,15 @@ purposes.
 - The **manuscript** presents the motivation, framing, and scientific argument for why a levels-based view is useful.
 - The **repository** is intended to remain the open, revisable, community-facing version of the framework.
 
-Once the initial Zenodo manuscript is deposited, this README should document:
+Publication linkage:
 
-- the exact repository version described by the paper;
-- the formal citation for the article;
-- the fact that later repository versions may extend beyond the published paper;
-- where readers can find the latest living version of the framework.
-
-Planned publication linkage:
-
-- `v1.0.0`: first public release of the framework
-- `v1.0.1`: patch release intended to align with the initial Zenodo manuscript unless superseded before publication
-- later versions: living updates based on community input and framework evolution
+- `v1.0.0`: first public release of the framework, preceding the manuscript
+  publication
+- `v1.0.1`: framework release described by manuscript version `1.0`
+- manuscript version `1.0` and framework release `v1.0.1`: connected through
+  reciprocal related-work metadata in Zenodo
+- later versions: living updates based on community input and framework
+  evolution; they may extend beyond the version described in the manuscript
 
 ## Building the manuscript
 

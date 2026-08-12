@@ -9,13 +9,19 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 ### Added
 
 - reproducible Pandoc build for standalone HTML and PDF manuscript outputs
-- prepared metadata and checklist for the separate Zenodo manuscript record
+- published manuscript version `1.0` as a separate Zenodo preprint with DOI
+  `10.5281/zenodo.21899772`
+- publication metadata and a reusable checklist for the separate Zenodo
+  manuscript record
 
 ### Changed
 
 - added the version-specific `v1.0.1` framework DOI to citation metadata,
   repository guidance, and the manuscript
 - assigned version `1.0` to the independently versioned manuscript
+- documented when to cite the framework release, the manuscript, or both
+- linked the manuscript and framework software records through reciprocal
+  Zenodo related-work metadata
 
 ## [1.0.1] - 2026-08-12
 
@@ -27,7 +33,7 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 - planned GitHub Pages self-assessment concept for multidimensional
   reproducibility profiles
 - framework and manuscript metadata for Stefan Gerber, author ORCIDs, and the
-  reserved manuscript DOI
+  initial manuscript DOI
 
 ### Changed
 
