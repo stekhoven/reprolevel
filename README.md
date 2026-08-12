@@ -132,7 +132,7 @@ This project adopts **semantic versioning** for the framework.
 - **Minor versions** reflect meaningful extensions or revisions to level definitions, governance, or supporting materials.
 - **Patch versions** reflect smaller corrections such as wording, formatting, citation metadata, or non-substantive fixes.
 
-The current repository version is `1.0.1`. The latest version archived in
+The current development version is `1.0.1`. The latest version archived in
 Zenodo is `v1.0.0`.
 
 Releases should:
@@ -156,8 +156,9 @@ The current repository version, `v1.0.1`, does not yet have a version-specific
 Zenodo DOI. Its citation metadata therefore does not reuse the DOI for
 `v1.0.0`.
 
-The DOI for the initial Zenodo manuscript publication should be added here once
-the deposit is complete.
+The reserved DOI for the initial Zenodo manuscript is
+`10.5281/zenodo.21899772`. It will become active and citable when the manuscript
+record is published.
 
 Machine-readable citation metadata is available in [`CITATION.cff`](CITATION.cff).
 
@@ -167,7 +168,8 @@ The framework release and manuscript are versioned independently when needed:
 
 - archived framework release: `v1.0.0`,
   <https://doi.org/10.5281/zenodo.19616402>
-- initial manuscript publication: Zenodo deposit in preparation
+- initial manuscript publication: Zenodo deposit in preparation; reserved DOI
+  `10.5281/zenodo.21899772`
 - framework version described by the manuscript: `v1.0.1`
 
 ## Publication sync

@@ -10,6 +10,8 @@
 [0000-0003-3163-3161](https://orcid.org/0000-0003-3163-3161); Stefan Gerber,
 [0000-0002-2187-2727](https://orcid.org/0000-0002-2187-2727)
 
+**Manuscript DOI (reserved):** `10.5281/zenodo.21899772`
+
 ## Abstract
 
 Computational reproducibility is often presented as an all-or-nothing
@@ -457,6 +459,8 @@ The manuscript and source framework are openly available:
 - Archived framework release (`v1.0.0`):
   <https://doi.org/10.5281/zenodo.19616402>
 - Framework version described in this manuscript: `v1.0.1`
+- Manuscript DOI (reserved; activated when the Zenodo record is published):
+  `10.5281/zenodo.21899772`
 
 The repository is licensed under CC BY 4.0 for documentation and MIT for code,
 as described in the repository licence file.

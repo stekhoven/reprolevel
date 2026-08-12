@@ -6,8 +6,26 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 
 ## [Unreleased]
 
+The changes below are planned for `v1.0.1`. The release date and
+version-specific Zenodo DOI will be added when the release is published.
+
+### Added
+
+- plain Markdown manuscript presenting the framework's scientific rationale
+- manuscript section describing the repository as a collaborative, living
+  framework
+- planned GitHub Pages self-assessment concept for multidimensional
+  reproducibility profiles
+- framework and manuscript metadata for Stefan Gerber, author ORCIDs, and the
+  reserved manuscript DOI
+
 ### Changed
 
+- updated development-version metadata from `1.0.0` to `1.0.1`
+- switched the README DOI badge image to shields.io while retaining the same
+  DOI target
+- expanded spell-check dictionary entries for manuscript references and ORCID
+  metadata
 - removed legacy RStudio and R Markdown manuscript artefacts now that the manuscript draft is maintained in plain Markdown
 - removed the obsolete F1000Research Word submission artefact; the Markdown
   manuscript is now the canonical source for generating the Zenodo HTML
@@ -18,27 +36,10 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 
 ### Fixed
 
+- excluded otherwise valid AAAS DOI links from automated checking because the
+  targets block automated requests
 - excluded the valid Edge reference from automated link checking because the
   site returns HTTP 500 to the checker
-
-## [1.0.1] - 2026-05-06
-
-### Added
-
-- plain Markdown draft manuscript for the planned F1000Research article
-- manuscript section describing the repository as a collaborative, living framework
-- planned GitHub Pages self-assessment concept for multidimensional reproducibility profiles
-- author ORCID in the manuscript metadata
-
-### Changed
-
-- updated framework version metadata from `1.0.0` to `1.0.1`
-- switched the README DOI badge image to shields.io while retaining the same DOI target
-- expanded spell-check dictionary entries for manuscript references and ORCID metadata
-
-### Fixed
-
-- excluded one otherwise valid AAAS DOI from automated link checking because the target blocks automated requests
 
 ## [1.0.0] - 2026-04-16
 
