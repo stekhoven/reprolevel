@@ -6,7 +6,9 @@ exclude = [
   "^https://doi\\.org/10\\.1126/scitranslmed\\.aaf5027$",
   "^https://doi\\.org/10\\.1126/science\\.1213847$",
   # HDSR/MIT Press blocks automated checks for this otherwise valid DOI.
-  "^https://doi\\.org/10\\.1162/99608f92\\.fc14bf2d$"
+  "^https://doi\\.org/10\\.1162/99608f92\\.fc14bf2d$",
+  # Edge returns HTTP 500 to automated checks for this otherwise valid source.
+  "^https://www\\.edge\\.org/response-detail/25340$"
 ]
 max_concurrency = 8
 retry_wait_time = 2

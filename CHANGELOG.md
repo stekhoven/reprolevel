@@ -16,6 +16,11 @@ The format is inspired by Keep a Changelog, and the project intends to follow se
 - clarified that DOI `10.5281/zenodo.19616402` identifies the archived `v1.0.0`
   framework release and is not the DOI for repository version `v1.0.1`
 
+### Fixed
+
+- excluded the valid Edge reference from automated link checking because the
+  site returns HTTP 500 to the checker
+
 ## [1.0.1] - 2026-05-06
 
 ### Added
